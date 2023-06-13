@@ -1,0 +1,19 @@
+.divfiltros, .divConteudo, .divForm{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+.divfiltros{margin-top: 0;}
+
+.divConteudo, .divForm{
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.divForm{
+    width: 100%;
+}

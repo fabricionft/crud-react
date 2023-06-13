@@ -1,0 +1,47 @@
+.linha{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-radius: 7.5px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(226, 226, 226);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 2.5%), 0 8px 16px rgb(0 0 0 / 2.5%);
+}
+
+.conteudoTexto, .conteudoBotoes{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.conteudoBotoes{
+    width: 42%;
+    justify-content: space-between;
+}
+
+.btnEditar, .btnExcluir{
+    width: 70px;
+    height: 35px;
+    margin: 15px 0;
+    background: var(--elemntos);
+}
+
+.btnEditar{
+    border: none;
+    background: var(--elemntos);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 15%);
+    text-decoration: none;
+}
+
+.btnEditar:hover{background: var(--hover);}
+
+.btnExcluir{background: rgb(248, 78, 78);}
+.btnExcluir:hover{background: rgb(209, 59, 59);}

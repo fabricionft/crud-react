@@ -1,0 +1,7 @@
+.filtro{
+    width: 90px;
+    background: var(--elemntos);
+    color: #fff;
+    margin-right: 25px;
+    font-weight: bold;
+}
